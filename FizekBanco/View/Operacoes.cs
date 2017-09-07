@@ -29,6 +29,26 @@ namespace FizekBanco.View
             Application.Exit();
         }
 
-        
+        private void sobreOProjetoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Desenvolvido por Rafael Ramos Lopes", "Sobre o Projeto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnSaque_Click(object sender, EventArgs e)
+        {
+            ContaGerenciar conta = new ContaGerenciar();
+
+            string vlr, saldorestante;
+            double valor;
+
+            vlr = txbValor.Text;
+            valor = Double.Parse(vlr);
+            conta.saldo = conta.saldo - valor;
+
+            saldorestante = conta.saldo.ToString);
+
+            txbSaldo.Text = saldorestante;
+        }
+
     }
 }

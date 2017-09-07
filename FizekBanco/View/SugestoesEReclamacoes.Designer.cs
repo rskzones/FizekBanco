@@ -164,6 +164,7 @@
             this.sobreOProjetoToolStripMenuItem.Name = "sobreOProjetoToolStripMenuItem";
             this.sobreOProjetoToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.sobreOProjetoToolStripMenuItem.Text = "Sobre o Projeto";
+            this.sobreOProjetoToolStripMenuItem.Click += new System.EventHandler(this.sobreOProjetoToolStripMenuItem_Click);
             // 
             // btnLimpar
             // 

@@ -27,9 +27,9 @@ namespace FizekBanco.View
 
         private void btnOperacao_Click(object sender, EventArgs e)
         {
-            var frmOperacoes = new Operacoes();
+            var frmDigiteSenha = new DigiteSenha();
 
-            frmOperacoes.Show();
+            frmDigiteSenha.Show();
             this.Hide();
 
         }
@@ -77,7 +77,7 @@ namespace FizekBanco.View
 
         private void sobreOProjetoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Desenvolvido por Rafael Ramos Lopes", "Sobre o Projeto", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
     }

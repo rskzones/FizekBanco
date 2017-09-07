@@ -52,5 +52,10 @@ namespace FizekBanco.View
             this.Hide();
             MessageBox.Show("Obrigado por utilizar nossos serviços!", "Até Mais", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void sobreOProjetoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Desenvolvido por Rafael Ramos Lopes", "Sobre o Projeto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
